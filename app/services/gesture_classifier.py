@@ -1,4 +1,7 @@
+from ultralytics import YOLO
+
+model = YOLO("app/models/yolov8_model.pt")
 
 def classify_gesture(landmarks):
-    # Placeholder for YOLOv8 + InceptionV3 pipeline
-    return "HELLO"
+    # inference logic
+    pass
