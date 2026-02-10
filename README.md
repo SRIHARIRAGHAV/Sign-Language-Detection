@@ -3,7 +3,7 @@
 
 This repository contains the **backend implementation** of a real-time Sign Language Detection System designed to assist deaf and mute individuals by converting hand gestures into text and speech.
 
-## 🚀 Features
+##  Features
 - Real-time hand gesture detection
 - MediaPipe-based hand landmark extraction
 - Advanced CNN (InceptionV3) + YOLOv8 for gesture classification
@@ -11,7 +11,7 @@ This repository contains the **backend implementation** of a real-time Sign Lang
 - REST API built with FastAPI
 - Modular, scalable, and deployment-ready
 
-## 🏗️ System Architecture
+##  System Architecture
 1. Data Acquisition (Webcam / Image Input)
 2. Preprocessing (MediaPipe landmarks)
 3. Feature Extraction (InceptionV3)
@@ -19,7 +19,7 @@ This repository contains the **backend implementation** of a real-time Sign Lang
 5. Text-to-Speech Conversion
 6. User Interface Integration
 
-## 📁 Project Structure
+##  Project Structure
 ```
 Sign-Language-Detection-Backend/
 ├── app/
@@ -36,7 +36,7 @@ Sign-Language-Detection-Backend/
 ├── README.md
 ```
 
-## ▶️ Run the Project
+##  Run the Project
 ```bash
 pip install -r requirements.txt
 uvicorn app.main:app --reload
@@ -45,13 +45,13 @@ uvicorn app.main:app --reload
 Open API Docs:
 http://127.0.0.1:8000/docs
 
-## 🎓 Academic Use
+##  Academic Use
 This project is suitable for:
 - Final Year Engineering Projects
 - AI / Computer Vision Demonstrations
 - Research Prototypes
 
-## 📌 Future Enhancements
+##  Future Enhancements
 - Mobile app integration
 - Multilingual sign support
 - Continuous gesture recognition
