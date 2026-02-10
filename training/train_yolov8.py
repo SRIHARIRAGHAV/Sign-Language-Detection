@@ -1,11 +1,12 @@
 from ultralytics import YOLO
 
+# Load YOLOv8 classification model
 model = YOLO("yolov8n-cls.pt")
 
+# Train using your dataset
 model.train(
-    data="dataset",
+    data="training/dataset",
     epochs=50,
     imgsz=224,
-    batch=16,
-    device=0  
+    batch=16
 )
