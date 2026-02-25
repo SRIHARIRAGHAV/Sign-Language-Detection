@@ -1,0 +1,1 @@
+fastapi uvicorn opencv-python mediapipe ultralytics tensorflow gtts numpy

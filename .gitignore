@@ -1,0 +1,9 @@
+*.sqlite
+venv/
+runs/
+models/
+asl_alphabet_train/
+asl_alphabet_test/
+videos/
+*.pt
+__pycache__/
